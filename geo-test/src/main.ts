@@ -29,11 +29,11 @@ canvas.addEventListener('mousemove', (event: MouseEvent) => {
   startPosY = event.y;
 })
 
-canvas.addEventListener('mouseleave', (event: MouseEvent) => {
+canvas.addEventListener('mouseleave', () => {
   down = false;
 })
 
-canvas.addEventListener('mouseup', (event: MouseEvent) => {
+canvas.addEventListener('mouseup', () => {
   down = false;
 })
 
